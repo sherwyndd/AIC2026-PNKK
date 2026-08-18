@@ -1,0 +1,63 @@
+ai-challenge-2026/
+├── .venv/                    # Môi trường ảo Python (Virtual Environment)
+├── .gitignore                # Khai báo bỏ qua .venv, models/, data/ rác khi push Git
+├── README.md                 # Hướng dẫn tổng quan cách cài đặt & chạy dự án
+├── requirements.txt          # Danh sách thư viện Python (pip freeze > requirements.txt)
+│
+├── configs/                  # Bảng điều khiển cấu hình tham số trung tâm
+│   ├── pipeline_config.yaml  # Config chính (paths, model names, batch_size, DB ports...)
+│   └── search_config.yaml    # Config riêng cho siêu tham số Search/Rerank (RRF k, Top-K...)
+│
+├── docs/                     # Lưu trữ toàn bộ tài liệu dự án (Markdown format)
+│   ├── 01_pipeline_arch.md   # Sơ đồ & mô tả kiến trúc Pipeline tổng thể
+│   ├── 02_setup_guide.md     # Hướng dẫn dựng môi trường, cài CUDA, Milvus, Elastic
+│   ├── 03_papers_notes.md    # Ghi chú tóm tắt từ các paper (Vortex, TycheVid, MERVIN...)
+│   └── 04_cheatsheet.md      # Lưu sẵn các câu lệnh CLI hay dùng, API endpoints
+│
+├── models/                   # Lưu trữ Checkpoints / Weights của các model tải về
+│   ├── transnetv2/           # Weights của TransNetV2 (file .pb hoặc .onnx)
+│   ├── clip/                 # Cache/Weights của CLIP / BEiT-3 / OpenCLIP
+│   ├── whisper/              # Cache của Whisper (large-v3)
+│   ├── ocr/                  # Weights của PaddleOCR / PARSeq
+│   └── vlm/                  # Weights local của VLM (Qwen-2.5-VL / LLaVA nếu download offline)
+│
+├── data/                     # Dataset chính của cuộc thi (phân lớp quản lý)
+│   ├── raw_videos/           # Video gốc (.mp4) tải từ BTC về (chia theo Batch 01, 02...)
+│   ├── keyframes/            # Ảnh Keyframes đã cắt ra (chỉ chứa các file .jpg/.png)
+│   │   ├── L01_V001/         # Folder keyframes theo từng video ID
+│   │   └── L01_V002/
+│   └── metadata/             # Intermediate metadata (Lưu dưới dạng file Parquet / JSON)
+│       ├── shots.parquet     # Kết quả cắt Shot từ TransNetV2
+│       ├── keyframes.parquet # Danh sách Keyframe hợp lệ + Timestamps
+│       ├── asr.parquet       # Bóc tách lời thoại từ Whisper
+│       ├── ocr.parquet       # Chữ bóc từ màn hình
+│       └── captions.parquet  # Detailed Captions sinh từ BLIP-2/VLM
+│
+├── src/                      # Source code chính của hệ thống
+│   ├── preprocessing/        # [STEP 1] Chuỗi tác vụ xử lý dữ liệu Offline
+│   │   ├── 01_shot_cut.py    # Cắt shot (TransNetV2 / AutoShot)
+│   │   ├── 02_keyframe_ext.py# Lọc Keyframe đại diện
+│   │   ├── 03_asr_whisper.py # Bóc âm thanh ASR
+│   │   ├── 04_ocr_extract.py # Trích xuất chữ màn hình
+│   │   ├── 05_obj_detect.py  # Trích xuất vật thể (Co-DETR / YOLO)
+│   │   └── 06_captioning.py  # Sinh text mô tả qua BLIP-2/VLM
+│   │
+│   ├── indexing/             # [STEP 2] Đóng gói và đẩy dữ liệu vào CSDL
+│   │   ├── build_milvus.py   # Vectorize Keyframes & đẩy vào Milvus
+│   │   └── build_elastic.py  # Index Text (OCR, ASR, Caption) vào Elasticsearch
+│   │
+│   ├── search/               # [STEP 3] Engine tìm kiếm & Rerank (Dùng cho Server)
+│   │   ├── query_router.py   # Phân loại ý định câu hỏi (Query Intent Parsing)
+│   │   ├── hybrid_search.py  # Kết hợp RRF giữa Milvus & Elasticsearch
+│   │   └── reranker.py       # VLM / Object Crop Reranking cho Top-100
+│   │
+│   └── utils/                # Các thư viện bổ trợ xài chung
+│       ├── io_helpers.py     # Đọc/ghi Parquet/JSON bằng Polars
+│       ├── gpu_utils.py      # Hàm dọn rác VRAM (free_vram)
+│       └── logger.py         # Log lỗi/tiến độ ra terminal/file
+│
+├── web_ui/                   # Frontend / Backend App cho Vòng Chung kết (Onsite)
+│   ├── app.py                # FastApi backend tiếp nhận Query & trả kết quả về UI
+│   └── templates/            # Web UI cho người ngồi máy search thao tác
+│
+└── run_pipeline.py           # Master script - Gợi ý CLI để kích hoạt toàn bộ Pipeline

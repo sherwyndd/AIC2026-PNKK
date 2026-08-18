@@ -1,0 +1,2 @@
+# Reserved for search / rerank hyperparameters (RRF k, Top-K, ...).
+# Not used in the current preprocessing pipeline.

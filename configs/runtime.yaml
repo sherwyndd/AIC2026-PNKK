@@ -1,0 +1,19 @@
+paths:
+  input_dir: /mlcv2025/Datasets/HCMAI25/batch2/video
+  output_demo: dataset/demo
+  output_full: data
+
+pipeline:
+  mode: demo
+  format: json
+  sample_step: 8
+  rel_diff_threshold: 0.4
+  clip_batch_size: 8
+
+models:
+  clip_model_id: openai/clip-vit-large-patch14
+  yolov8_model_id: yolov8s.pt
+  object_detection_confidence: 0.25
+  object_detection_iou: 0.45
+  caption_model_id: OpenGVLab/InternVL2_5-2B
+  caption_prompt: "Task: Provide a short visual description of the keyframe in 1 sentence (max 20 words). Instruction: Output ONLY the description. Start directly with \"A \" or \"The \". Do not guess names, dates, or cities."

@@ -1,0 +1,166 @@
+# ============================================================
+# AIC_2026 — .gitignore
+# Chỉ LƯU code, config, tài liệu (file text nhỏ)
+# BỎ QUA dữ liệu lớn, model weights, cache, build output, env
+# ============================================================
+
+# ---------- Python bytecode / cache ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+
+# ---------- Python virtual environments ----------
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# ---------- Testing / Coverage ----------
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# ---------- Python typing / LSP cache ----------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# ---------- Jupyter Notebook (output cells nặng) ----------
+.ipynb_checkpoints/
+
+# ---------- Node / Frontend build / install ----------
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.parcel-cache/
+
+# Vite
+.vite/
+
+# ---------- HuggingFace / PyTorch / ML model weights ----------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin                 # model binaries / checkpoints (nhiều GB)
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# HF cache (hàng chục GB) — load lại từ HF Hub mỗi khi cần
+.huggingface/
+~/.cache/huggingface/
+.cache/huggingface/
+
+# Torch hub cache
+~/.cache/torch/
+.cache/torch/
+
+# ---------- Dataset / Keyframes / Features (dữ liệu nặng) ----------
+# Dữ liệu gốc AIC (ảnh keyframe JPG/PNG, features .npy, videos .mp4)
+dataset/Keyframes/
+dataset/**/Keyframes/
+dataset/**/keyframes/
+data/Keyframes/
+data/**/Keyframes/
+keyframes/
+keyframes_*/
+Keyframes/
+
+# Features embedding (nặng, có thể rebuild từ code)
+*.npy
+*.npz
+*.csv.bz2
+
+# Video / ảnh
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.gif
+
+# Giữ lại: ảnh icon/logo UI không nặng (thường nhỏ < 200KB) — nếu có
+# !UI/**/public/
+
+# ---------- Result files nặng ----------
+results/
+outputs/
+out/
+tmp/
+temp/
+torchinductor_*/
+
+# ---------- Logs ----------
+logs/
+*.log
+*.log.*
+*.out
+*.err
+nohup.out
+
+# ---------- Data files trung gian (JSON/CSV lớn, SQL, parquet) ----------
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------- Misc ----------
+*.bak
+*.backup
+*.old
+*.orig
+*.lock          # (nếu dùng conda/env, bỏ; muốn giữ package-lock.json thì đổi line này)
+
+# Qdrant storage (nếu có cục bộ - hàng chục GB)
+.qdrant/
+storage/
+qdrant_storage/
+
+# ---------- Lưu lại các file cần thiết (đừng bỏ qua) ----------
+# .gitignore được viết ở root, code trong src/, UI/, docs/, configs/ sẽ đƯỢC LƯU
+# README.md, requirements.txt, pipeline_config.yaml, spec.md, *.py, *.jsx, *.ts, *.json (config/package),
+# *.yaml, *.yml, *.toml, *.ini, .env.example, *.md là TEXT nhỏ nên TỰ ĐỘNG LƯU.
