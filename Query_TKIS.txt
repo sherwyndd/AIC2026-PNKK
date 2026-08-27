@@ -1,0 +1,239 @@
+Query 1:
+- Logo đồ họa chuyển cảnh 3D màu đỏ trắng nổi bật chữ "60 giây" trên nền trắng xéo sọc đỏ, góc trên cùng bên phải có logo HTV9 HD.
+- Trường quay bản tin Thời sự "60 giây" có nam MC mặc áo sơ mi xanh dương thắt cà vạt xanh và nữ MC tóc ngắn mặc váy dạ tweed trắng xám.
+- Cả hai MC cầm tập kẹp tài liệu màu đỏ đứng sau bục dẫn màu trắng, phía sau là toàn cảnh đường chân trời thành phố trong ánh hoàng hôn với tòa tháp Landmark 81.
+Đáp án: L21_V001 (28000 ms, 36500 ms)
+
+Query 2:
+- Khung hình chuyển cảnh đồ họa 3D chữ "60 giây" màu đỏ trên nền sọc chéo trắng đỏ của đài HTV9.
+- Nam MC mặc áo sơ mi màu xám tro thắt cà vạt kẻ sọc chéo đỏ đen đứng cạnh nữ MC mặc áo sơ mi màu be hồng phối chân váy đỏ đô.
+- Cả hai MC cầm tập hồ sơ màu đỏ đứng dẫn bản tin trước phông nền thành phố rực rỡ lúc xế chiều.
+Đáp án: L21_V005 (36500 ms, 45000 ms)
+
+Query 3:
+- Nam MC đeo kính mặc áo sơ mi xanh dương thắt cà vạt màu trắng xám đứng cùng nữ MC tóc búi mặc đầm công sở màu hồng đất/be tay ngắn.
+- Hai MC cầm kẹp tài liệu đỏ đứng sau bục dẫn màu trắng trong trường quay thời sự 60 giây.
+- Chân màn hình xuất hiện dải tin tức chạy chữ trắng trên nền đỏ: "Chính thức vận hành...".
+Đáp án: L21_V008 (45000 ms, 53500 ms)
+
+Query 4:
+- Toàn cảnh sảnh giao dịch dịch vụ công/bảo hiểm xã hội có nhiều quầy kính đánh số và người dân đang ngồi làm thủ tục; thanh tin tức đỏ dưới chân màn hình ghi: "TRẢ LƯƠNG HƯU QUA TÀI KHOẢN TRÊN CẢ NƯỚC TỪ 1/9".
+- Cận cảnh các bảng hướng dẫn quy trình nghiệp vụ đóng khung treo trên tường: "NGHIỆP VỤ QUẢN LÝ THU - SỔ, THẺ", "NGHIỆP VỤ GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BHXH", "NGHIỆP VỤ THỰC HIỆN CHÍNH SÁCH BHYT".
+- Bảng nghiệp vụ có in biểu trưng Bảo hiểm xã hội Việt Nam màu xám xanh.
+Đáp án: L21_V010 (53500 ms, 62000 ms)
+
+Query 5:
+- Biển bạt thông báo lớn màu xanh tím viền vàng chụp vào ban đêm: "CÔNG TY BOT CẦU RẠCH MIỄU - THÔNG BÁO - CẦU RẠCH MIỄU KIỂM ĐỊNH TỪ 22H ĐẾN 4H SÁNG NGÀY 13, 14 THÁNG 8 CẤM TẤT CẢ CÁC PHƯƠNG TIỆN QUA CẦU VÀO KHUNG GIỜ TRÊN".
+- Cảnh ban đêm trên đường kiểm định cầu có chiếc xe tải cứu hộ/công vụ màu vàng đang bật đèn chớp cảnh báo.
+- Nhóm công nhân và lực lượng chức năng mặc áo phản quang màu cam đứng làm việc cạnh dải phân cách bê tông.
+Đáp án: L21_V015 (62000 ms, 70500 ms)
+
+Query 6:
+- Cận cảnh một sọt nhựa màu đen đầy ắp những quả sầu riêng gai nhọn xếp ngăn nắp, vỏ sầu riêng có vạch phấn trắng hình chữ thập để phân loại.
+- Bàn tay một người đàn ông đưa ngón tay chỉ vào một quả sầu riêng lớn trong sọt nhựa để kiểm tra chất lượng.
+- Dưới chân màn hình có mã QR code và dòng chữ tin tức: "Bảo đảm an toàn giao thông dịp lễ Quốc khánh 2/9 và tháng cao điểm học sinh đến trường...".
+Đáp án: L21_V021 (70500 ms, 79000 ms)
+
+Query 7:
+- Nam MC đeo kính mặc áo sơ mi xanh nhạt thắt cà vạt màu vàng be đứng dẫn bản tin thời sự trước hình ảnh thành phố hoàng hôn đỏ rực có tòa nhà Landmark 81.
+- Chuyển cảnh sang hành lang dài của trường học có các thí sinh/học sinh đang đứng xếp hàng chờ vào phòng thi; phía trên cửa có biển màu xanh "VỆ SINH CHUNG".
+- Thanh tin tức đỏ chạy chữ in hoa nổi bật: "THI TỐT NGHIỆP THPT 2025 DIỄN RA CUỐI THÁNG 6".
+Đáp án: L22_V008 (79000 ms, 87500 ms)
+
+Query 8:
+- Nữ bác sĩ ngồi trên ghế xoay bọc da màu đen, mặc áo blouse trắng có thắt nơ xanh tím ở cổ áo đang trả lời phỏng vấn.
+- Bảng phụ đề màu đỏ trắng góc trái dưới màn hình hiển thị: "Thạc sĩ, Bác sĩ LÊ HỒNG NGA - TRUNG TÂM KIỂM SOÁT BỆNH TẬT TP.HCM (HCDC)".
+- Góc phải phía sau người được phỏng vấn có một chậu hoa khô màu tím sẫm trang trí trên bàn.
+Đáp án: L22_V012 (87500 ms, 96000 ms)
+
+Query 9:
+- Đoàn quân nhạc mặc lễ phục màu trắng viền đỏ vàng, vai áo có cầu vai vàng kim, đội mũ kê-pi trắng viền đỏ đang vừa diễu hành vừa biểu diễn kèn đồng và sáo.
+- Toàn cảnh đoàn diễu hành quân nhạc hùng tráng đang sải bước đồng đều trên mặt đường nhựa rợp bóng cây xanh phía trước tòa nhà cổ kính.
+- Dưới chân màn hình chạy dòng tin tức: "Lại sẽ diễn ra gần 1 tháng, gắn với âm nhạc, dự kiến từ ngày 6 đến ngày 31/12/2024".
+Đáp án: L22_V018 (96000 ms, 104500 ms)
+
+Query 10:
+- Bên trong khu chuồng trại chăn nuôi heo quy mô công nghiệp hiện đại, sạch sẽ với hệ thống quạt thông gió và dãy chuồng kim loại ngăn nắp.
+- Các chú heo màu hồng đang đi lại và nằm nghỉ trong ô chuồng, phía cuối lối đi giữa chuồng có một công nhân mặc đồ bảo hộ màu xanh lam.
+- Cận cảnh một người đang dùng vòi nước xịt rửa và chăm sóc đàn heo trong chuồng rào sắt dưới giàn lá xanh mát.
+Đáp án: L22_V022 (104500 ms, 113000 ms)
+
+Query 11:
+- Nữ MC tóc ngắn rẽ ngôi, mặc áo sơ mi cộc tay màu trắng tinh có cài một chiếc ghim cài áo nhỏ màu đen trước ngực.
+- Phông nền phía sau lưng nữ MC là toàn cảnh thành phố về đêm lung linh rực rỡ ánh đèn màu đỏ cam.
+- Nữ MC cầm tập kẹp tài liệu màu đỏ dẫn bản tin, dải tin tức chạy dưới màn hình: "Hà Giang: Di dời khẩn cấp người dân khỏi vùng nguy cơ sạt lở".
+Đáp án: L22_V025 (113000 ms, 121500 ms)
+
+Query 12:
+- Cận cảnh bàn tay người lớn đang nhẹ nhàng xoa bóp và nâng niu bàn chân nhỏ của một em bé đang nằm điều trị trên giường bệnh có gối đỏ.
+- Khung hình tiếp theo là người phụ nữ trung niên đeo khẩu trang y tế màu xanh nhạt đang ngồi trả lời phỏng vấn trong bệnh viện.
+- Bảng thông tin góc dưới hiển thị tên nhân vật: "Bà LÂM THỊ NGỌC HẠNH - QUẬN 8, TP.HCM".
+Đáp án: L22_V028 (121500 ms, 130000 ms)
+
+Query 13:
+- Hội thi múa lân sư rồng trên giàn Mai Hoa Thung vào ban đêm, con lân màu vàng vằn đen đang đứng thăng bằng trên một cột cọc sắt có đánh số thứ tự.
+- Con lân lông vàng ngẩng cao đầu hướng mắt về phía trước chuẩn bị bật nhảy sang cọc sắt tiếp theo giữa ánh đèn sân khấu.
+- Xung quanh khu vực thi đấu có đông đảo khán giả và ban giám khảo ngồi tại dãy bàn dài trải khăn màu xanh dương.
+Đáp án: L24_V018 (130000 ms, 138500 ms)
+
+Query 14:
+- Ban ngày ngoài trời, con lân toàn thân màu vàng tươi với khuôn mặt lân trang trí họa tiết rực rỡ đang đứng vững chãi trên cột trụ kim loại cao.
+- Khán đài phía dưới chật kín người hâm mộ và khán giả đang hào hứng ngước nhìn theo dõi màn trình diễn múa lân.
+- Góc máy quay trực diện con lân vàng đứng bằng bốn chân trên đỉnh hai chiếc cọc sắt tròn, phía sau có cần cẩu camera ghi hình của đài truyền hình HTV Thể Thao.
+Đáp án: L24_V022 (138500 ms, 147000 ms)
+
+Query 15:
+- Màn biểu diễn múa lân ban đêm, con lân toàn thân màu vàng chanh đang đứng nghiêng người tạo dáng trên hai cột cọc sắt kim loại.
+- Phần đầu lân có dòng chữ đỏ "PHƯƠNG TẾ ĐƯỜNG" thêu nổi bật trên dải vải màu vàng.
+- Con lân vàng hạ thấp trọng tâm thân mình chuẩn bị tiếp đất hoặc di chuyển sang cọc sắt kế bên trong tiếng trống chiêng rộn ràng.
+Đáp án: L24_V028 (147000 ms, 155500 ms)
+
+Query 16:
+- Con lân lông màu vàng rực rỡ đang thực hiện động tác vươn cao mình trên đỉnh cọc sắt cao nhất của giàn Mai Hoa Thung.
+- Phía sau sàn thi đấu có mô hình con rồng vàng uốn lượn trang trí trên phông nền sân khấu và dãy bàn giám khảo mặc áo đỏ.
+- Sàn thi đấu phía dưới được trải các tấm thảm đệm màu xanh dương để đảm bảo an toàn.
+Đáp án: L24_V032 (155500 ms, 164000 ms)
+
+Query 17:
+- Con lân màu trắng bạc lấp lánh đang biểu diễn uốn lượn thăng bằng điêu luyện trên các cột cọc sắt giữa sân khấu đêm.
+- Phía dưới sàn trải thảm màu xanh dương có một cổng chào nhỏ màu trắng kết hoa lụa tinh tế.
+- Góc quay toàn cảnh từ trên cao bao quát toàn bộ đấu trường múa lân với hệ thống giàn cọc sắt và đông đảo khán giả vây quanh xem hội.
+Đáp án: L24_V038 (164000 ms, 172500 ms)
+
+Query 18:
+- Biểu diễn múa lân ngoài trời ban ngày, con lân màu trắng viền lông đỏ cam đang đứng nhón chân bằng hai chân sau trên cọc sắt, hai chân trước giơ cao đón gió.
+- Con lân trắng viền đỏ cúi đầu nghiêng mình uyển chuyển trên đỉnh cột cọc sắt trước sự tán thưởng của khán giả ngồi trên khán đài ngoài trời.
+- Phía trên góc phải màn hình có logo của kênh HTV Thể Thao.
+Đáp án: L24_V042 (172500 ms, 181000 ms)
+
+Query 19:
+- Video bài giảng ôn thi tốt nghiệp THPT môn Ngữ Văn của Thầy ĐỖ ĐỨC ANH (Trường THPT Bùi Thị Xuân, TPHCM) mặc áo sơ mi xanh khoác ngoài áo thun trắng ở góc dưới bên trái.
+- Bảng điện tử trình chiếu nội dung bài học: "NGHỊ LUẬN VĂN HỌC - TÁC PHẨM CHIẾC THUYỀN NGOÀI XA", trích dẫn đoạn văn: "Người đàn bà bỗng chép miệng, con mắt như đang nhìn suốt cả đời mình...".
+- Dải banner màu vàng cam dưới đáy màn hình ghi rõ chuyên đề: "CHƯƠNG TRÌNH ÔN THI THPT 2024 - MÔN NGỮ VĂN - CĐ10: LUYỆN ĐỀ NGHỊ LUẬN VĂN HỌC: TÁC PHẨM CHIẾC THUYỀN NGOÀI XA".
+Đáp án: L25_V001 (181000 ms, 189500 ms)
+
+Query 20:
+- Bài giảng môn Ngữ Văn ôn thi THPT của Thầy ĐỖ ĐỨC ANH phân tích đoạn trích tác phẩm "ĐẤT NƯỚC" của nhà thơ Nguyễn Khoa Điềm.
+- Bảng điện tử hiển thị những câu thơ quen thuộc: "Đất Nước có trong những cái 'ngày xửa ngày xưa' mẹ thường hay kể / Đất Nước bắt đầu với miếng trầu bây giờ bà ăn / Đất Nước lớn lên khi dân mình biết trồng tre mà đánh giặc...".
+- Phía dưới là câu hỏi yêu cầu nghị luận: "Cảm nhận của anh/chị về đoạn thơ trên. Từ đó, nhận xét về chất liệu dân gian mà Nguyễn Khoa Điềm sử dụng trong đoạn thơ trên".
+Đáp án: L25_V010 (189500 ms, 198000 ms)
+
+Query 21:
+- Bài giảng môn Sinh học của Thầy VÕ THANH BÌNH (Trường THPT chuyên Lê Hồng Phong), thầy mặc áo sơ mi tím ngồi giảng bài bên cạnh laptop.
+- Slide bài giảng hiển thị tiêu đề in hoa "CƠ QUAN TƯƠNG TỰ" kèm theo 4 hình ảnh minh họa sinh động: một con bướm đang đậu hút mật hoa, một con dơi đang dang cánh bay trên bầu trời, một cây xương rồng xanh nhiều gai và một cành hoa hồng có gai nhọn.
+- Khung bài giảng có họa tiết trang trí lá cây màu xanh ở góc dưới.
+Đáp án: L25_V020 (198000 ms, 206500 ms)
+
+Query 22:
+- Chàng trai trẻ đeo kính cận mặc áo sơ mi đen đang thực hiện kỹ năng pha chế đồ uống với bình lắc kim loại (shaker) trước quầy bar có kệ rượu nhiều tầng phía sau.
+- Chuyển cảnh sang toàn thể các tân cử nhân mặc áo thụng tốt nghiệp màu đen viền đỏ đồng loạt tung mũ cử nhân lên trời trong ngày lễ tốt nghiệp.
+- Bối cảnh lễ tốt nghiệp diễn ra tại sân trước của một ngôi đình/chùa truyền thống cổ kính có mái ngói cong.
+Đáp án: L25_V035 (206500 ms, 215000 ms)
+
+Query 23:
+- Lễ ký kết biên bản ghi nhớ hợp tác (MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY) giữa Trường Đại học Quốc tế Sài Gòn (SIU, Vietnam) và Michael Dukakis Institute for Leadership & Innovation, USA; hai đại biểu nam nữ mặc vest trang trọng ngồi tại bàn ký kết.
+- Khung cảnh thư viện trường đại học hiện đại, khang trang với các dãy giá sách cao tầng chứa đầy sách và tài liệu nghiên cứu.
+- Nhóm sinh viên nam nữ mặc áo sơ mi trắng đồng phục đang ngồi thảo luận và đọc sách quanh bàn tròn trong thư viện.
+Đáp án: L25_V050 (215000 ms, 223500 ms)
+
+Query 24:
+- Bài giảng Sinh học chuyên đề Di truyền học của Thầy VÕ THANH BÌNH (Trường THPT chuyên Lê Hồng Phong) hướng dẫn xác định số loại kiểu gen thể ba.
+- Slide bài học vẽ sơ đồ các cặp nhiễm sắc thể thẳng đứng và công thức: "Số loại kiểu gen là 4, gồm: AAA, aaa (Đồng hợp) ; AAa, Aaa (Dị hợp)".
+- Thầy giáo ngồi ở góc trái phía dưới màn hình vừa nhìn màn hình vừa thuyết giảng bài học.
+Đáp án: L25_V065 (223500 ms, 232000 ms)
+
+Query 25:
+- Cận cảnh đĩa thức ăn chiên giòn rụm màu vàng ươm được rắc những hạt mè đen/vừng đen bóng bẩy bao phủ bên ngoài lớp bột chiên.
+- Hai bàn tay bẻ đôi một chiếc đùi/miếng thịt chiên vàng giòn để lộ thớ thịt trắng mềm mịn, thơm ngon bốc khói nhẹ bên trong.
+- Đĩa sứ đựng món ăn có màu hồng pastel ấm áp.
+Đáp án: L26_V001 (232000 ms, 240500 ms)
+
+Query 26:
+- Cận cảnh những viên chả thịt bọc trứng cút chiên vàng tròn xoe được cắt đôi đẹp mắt để lộ lòng đỏ và lòng trắng trứng cút bên trong.
+- Đôi đũa gỗ gắp một nửa viên chả bọc trứng cút chấm vào bát nước sốt nhỏ màu vàng viền lượn sóng, bên cạnh là đĩa sứ màu vàng nhạt bày đầy những viên chả chiên.
+- Phía sau có nền gỗ mộc mạc và dĩa rau xanh trang trí.
+Đáp án: L26_V025 (240500 ms, 249000 ms)
+
+Query 27:
+- Một cuộn thịt bọc lá rong biển màu đen tuyền được đặt trên đĩa sứ chữ nhật màu trắng cạnh chùm cà chua bi đỏ mọng và rau xà lách xanh tươi.
+- Bàn tay đeo găng tay nilon trong suốt đang nhẹ nhàng xếp các cuộn thịt rong biển lên đĩa ăn đã được bày sẵn rau xà lách xoăn, cà chua bi và chén sốt mayonnaise màu kem.
+- Món ăn được chuẩn bị trong không gian bếp gia đình tinh tế.
+Đáp án: L26_V050 (249000 ms, 257500 ms)
+
+Query 28:
+- Nam đầu bếp áo trắng viền đỏ và nữ MC mặc áo đỏ tươi cổ tròn phối tạp dề trắng viền đỏ đứng trong gian bếp chương trình "Món Ngon Mỗi Ngày".
+- Giữa màn hình xuất hiện bong bóng đồ họa màu đỏ hình đám mây chứa dòng chữ: "BỮA ĂN ĐẦY ĐỦ DINH DƯỠNG VỚI CÁ HỒI NƯỚNG LÁ THƠM".
+- Cận cảnh chảo xào các miếng thịt cá phi lê xé sợi màu trắng ngà kết hợp với rau củ xanh đỏ bắt mắt.
+Đáp án: L26_V080 (257500 ms, 266000 ms)
+
+Query 29:
+- Đĩa lòng non xào hẹ và ớt chuông màu xanh ngọc nhạt được bày trên bàn cạnh một bát sứ đầy ắp cơm trắng tinh đặt trên đế lót bằng mây tre đan.
+- Cận cảnh đĩa thức ăn xào gồm những miếng lòng non cắt khúc màu trắng giòn sần sật xào cùng ớt chuông vàng, ớt sừng đỏ và lá hẹ xanh mướt.
+- Góc máy quay sắc nét cho thấy khói thơm nghi ngút tỏa ra từ món ăn vừa nấu chín.
+Đáp án: L26_V120 (266000 ms, 274500 ms)
+
+Query 30:
+- Cận cảnh món mướp đắng (khổ qua) nhồi thịt kho/hầm đậm đà, từng khoanh khổ qua xanh mướt nhồi đầy ắp nhân thịt nâu bóng bẩy.
+- Phía trên các khoanh khổ qua được trang trí những sợi ớt sừng đỏ uốn cong mềm mại và rải hành lá thái nhỏ.
+- Món ăn kho sánh màu cánh gián hấp dẫn bày gọn gàng trên đĩa sứ.
+Đáp án: L26_V180 (274500 ms, 283000 ms)
+
+Query 31:
+- Tòa nhà trụ sở ngân hàng kiến trúc tân cổ điển châu Âu nguy nga với hàng cột đá đồ sộ, góc dưới màn hình chạy dải tin tức: "NGÂN HÀNG TRUNG ƯƠNG ANH LẦN ĐẦU GIẢM LÃI SUẤT SAU HƠN 4 NĂM".
+- Khung hình tiếp theo chuyển về trường quay 60 giây góc rộng với bục dẫn hình logo số "60 giây" màu đỏ trắng.
+- Nam MC mặc sơ mi xám thắt cà vạt tối màu đứng cạnh nữ MC mặc váy liền màu đỏ đô lịch lãm.
+Đáp án: L21_V002 (30000 ms, 38500 ms)
+
+Query 32:
+- Nam MC đeo kính cận mặc áo sơ mi xanh xám đậm thắt cà vạt đen đứng bên trái bục dẫn trường quay 60 giây.
+- Nữ MC tóc dài đen xõa ngang vai, mặc áo kiểu màu be xếp ly có thắt nơ trước ngực đứng bên phải cầm kẹp tài liệu đỏ.
+- Phông nền phía sau hai người là khung cảnh toàn cảnh thành phố trong ánh nắng hoàng hôn vàng cam ấm áp.
+Đáp án: L21_V006 (41500 ms, 50000 ms)
+
+Query 33:
+- Nam MC đeo kính mặc áo sơ mi màu xanh dương nhạt thắt cà vạt kẻ sọc xám đứng dẫn bản tin cùng nữ MC mặc đầm vest công sở màu xanh than cổ chữ V.
+- Cả hai MC cầm hồ sơ màu đỏ đứng sau bục dẫn màu trắng trong trường quay thời sự 60 giây.
+- Dưới chân màn hình xuất hiện dải tin tức: "TP.HCM: Học sinh tựu trường sớm nhất vào ngày 19/8/2024".
+Đáp án: L21_V009 (53000 ms, 61500 ms)
+
+Query 34:
+- Cảnh hầm chui đường bộ Tân Sơn Nhất mới khánh thành với mặt đường nhựa rộng rãi, lan can màu trắng và dải cây xanh tươi mát bên đường.
+- Thanh tin tức dưới chân màn hình chạy dòng chữ: "Thủ tướng Phạm Minh Chính dự lễ thông xe hầm chui cửa ngõ Tân Sơn Nhất".
+- Người đàn ông trung niên mặc áo polo xanh đậm được phỏng vấn bên đường, góc dưới có bảng tên: "Ông PHẠM HỒNG HẢI - QUẬN TÂN BÌNH, TP.HCM".
+Đáp án: L22_V010 (64500 ms, 73000 ms)
+
+Query 35:
+- Hai thanh niên trẻ gồm một người đeo kính mặc áo thun xanh in chữ "Just do it" và một người mặc áo khoác xám đang chăm chú xem bảng thông tin.
+- Cảnh tiếp theo là nhà sách đầu năm học mới với các chồng sách giáo khoa xếp cao ngăn nắp, có cắm biển phân loại: "LỚP 9 CHÂN TRỜI SÁNG TẠO".
+- Người phụ nữ mặc áo khoác xám đang cúi xuống lựa chọn sách vở cho con.
+Đáp án: L22_V015 (76000 ms, 84500 ms)
+
+Query 36:
+- Toàn cảnh khu vực thi đấu múa lân sư rồng ngoài trời có mái bạt trắng che chắn, sàn đấu trải thảm màu xanh dương và các trọng tài ngồi bàn chữ nhật bấm giờ chấm điểm.
+- Nhóm thanh niên đoàn lân mặc đồng phục áo thun đỏ viền vàng đang hào hứng gõ trống da và đánh chũm chọe đồng vang dội để cổ vũ.
+- Góc phải màn hình có logo của kênh truyền hình HTV Thể Thao.
+Đáp án: L24_V020 (87500 ms, 96000 ms)
+
+Query 37:
+- Toàn cảnh đêm hội thi múa lân nhìn từ góc máy trên cao xuống sân khấu giàn Mai Hoa Thung rực rỡ ánh đèn led đa sắc màu.
+- Con lân màu trắng bờm đỏ đang đứng vươn thẳng thân mình trên cột cọc sắt cao nhất của giàn thi đấu.
+- Hai mắt của con lân chớp nháy lấp lánh theo từng nhịp trống thúc giục của đoàn nghệ thuật.
+Đáp án: L24_V030 (99000 ms, 107500 ms)
+
+Query 38:
+- Slide bài giảng môn Vật Lý ôn thi THPT chuyên đề: "CD10: HẠT NHÂN NGUYÊN TỬ" - Mục "1. Cấu tạo hạt nhân".
+- Bảng điện tử hiển thị định nghĩa: "Hạt nhân được cấu tạo từ hai loại hạt là proton và nơtron (gọi chung là nuclon)".
+- Phía dưới có bảng so sánh chi tiết điện tích và khối lượng của Proton (p) và Nơtron (n).
+Đáp án: L25_V005 (110500 ms, 119000 ms)
+
+Query 39:
+- Góc quay flycam từ trên cao nhìn vuông góc xuống mặt sân thể thao thi đấu bóng chuyền màu xanh lá cây có các đường kẻ vạch sơn trắng vàng rõ nét.
+- Các vận động viên nữ mặc trang phục thể thao đang chạy chỗ, phối hợp và đỡ bóng trên sân.
+- Khung cảnh chuyển sang người phụ nữ mặc áo dài truyền thống màu xanh dương đứng phát biểu sau bục gỗ có lẵng hoa hướng dương vàng rực.
+Đáp án: L25_V015 (122000 ms, 130500 ms)
+
+Query 40:
+- Cận cảnh đáy chiếc chảo chống dính màu hồng đặt trên kiềng bếp ga có ngọn lửa xanh đang xào nấu món ăn bốc khói nghi ngút.
+- Chuyển cảnh sang nam đầu bếp áo trắng viền đỏ cầm đũa dài đứng cạnh nữ MC mặc váy đỏ cổ vuông phối tạp dề trắng viền đỏ.
+- Cả hai đang tươi cười giới thiệu công thức món ăn mới trong gian bếp của chương trình "Món Ngon Mỗi Ngày".
+Đáp án: L26_V010 (133500 ms, 142000 ms)

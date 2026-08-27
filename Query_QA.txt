@@ -1,0 +1,138 @@
+Query 1:
+- Mở đầu là toàn cảnh sảnh giao dịch đông người của cơ quan hành chính nhà nước có các dãy quầy kính tiếp nhận hồ sơ.
+- Dưới chân màn hình xuất hiện thanh tin tức chạy dòng chữ màu đỏ về chính sách chi trả lương hưu qua tài khoản ngân hàng trên toàn quốc.
+- Theo thông tin trên dải băng tin tức, chính sách chi trả lương hưu qua tài khoản được bắt đầu thực hiện từ tháng mấy?
+Đáp án: L21_V010 (53500 ms, 62000 ms)
+Câu trả lời: 9
+
+Query 2:
+- Khung cảnh ban đêm ghi lại một tấm biển bạt lớn màu xanh tím viền vàng treo cạnh tuyến đường quốc lộ.
+- Nội dung biển thông báo về việc cấm tất cả các phương tiện lưu thông qua một cây cầu từ 22 giờ đến 4 giờ sáng ngày 13 và 14 tháng 8 để phục vụ công tác kiểm định tải trọng.
+- Cho biết tên của cây cầu được nêu trong biển thông báo là cầu gì?
+Đáp án: L21_V015 (62000 ms, 70500 ms)
+Câu trả lời: RACHMIEU
+
+Query 3:
+- Bản tin thời sự ghi lại hình ảnh các thí sinh, học sinh đang tập trung xếp hàng dọc theo hành lang của một trường học để chuẩn bị vào phòng thi.
+- Dưới chân màn hình hiển thị thanh thông tin thời sự màu đỏ thông báo về thời gian tổ chức kỳ thi tốt nghiệp trung học phổ thông năm 2025.
+- Theo thông tin trên bản tin, kỳ thi tốt nghiệp THPT 2025 được dự kiến sẽ diễn ra vào cuối tháng mấy?
+Đáp án: L22_V008 (79000 ms, 87500 ms)
+Câu trả lời: 6
+
+Query 4:
+- Khung hình phỏng vấn một nữ bác sĩ đang ngồi trên ghế da màu đen, mặc áo blouse trắng có thắt nơ xanh tím ở cổ áo.
+- Góc dưới bên trái màn hình xuất hiện khung thông tin màu đỏ trắng ghi rõ học vị, họ tên và đơn vị công tác trực thuộc Trung tâm Kiểm soát Bệnh tật TP.HCM (HCDC).
+- Họ và tên đầy đủ của vị bác sĩ được phỏng vấn trong video là gì?
+Đáp án: L22_V012 (87500 ms, 96000 ms)
+Câu trả lời: LEHONGNGA
+
+Query 5:
+- Khung cảnh đêm hội biểu diễn thể thao nghệ thuật lân sư rồng trên giàn cọc sắt Mai Hoa Thung.
+- Con lân màu vàng chanh đang thực hiện các động tác nhào lộn, uốn lượn thăng bằng điêu luyện trên các cột trụ cao.
+- Trên phần đầu của con lân có thêu tên của đoàn lân sư rồng bằng chữ in hoa màu đỏ, tên của đoàn lân này là gì?
+Đáp án: L24_V028 (147000 ms, 155500 ms)
+Câu trả lời: PHUONGTEDUONG
+
+Query 6:
+- Video bài giảng trực tuyến môn Ngữ Văn ôn thi tốt nghiệp THPT của thầy giáo Đỗ Đức Anh ở góc dưới màn hình.
+- Bảng điện tử trình chiếu phân tích đoạn trích văn xuôi: "Người đàn bà bỗng chép miệng, con mắt như đang nhìn suốt cả đời mình...".
+- Đoạn trích văn học được thầy giáo giảng dạy và phân tích thuộc tác phẩm văn xuôi nào?
+Đáp án: L25_V001 (181000 ms, 189500 ms)
+Câu trả lời: CHIECTHUYENNGOAIXA
+
+Query 7:
+- Bài giảng chuyên đề ôn thi Ngữ Văn phân tích đoạn trích thơ nổi tiếng: "Đất Nước có trong những cái 'ngày xửa ngày xưa' mẹ thường hay kể...".
+- Đoạn thơ của tác giả Nguyễn Khoa Điềm được thầy giáo trình chiếu và phân tích trong bài học có tên là gì?
+Đáp án: L25_V010 (189500 ms, 198000 ms)
+Câu trả lời: DATNUOC
+
+Query 8:
+- Video bài giảng trực tuyến môn Sinh học của thầy giáo Võ Thanh Bình (Trường THPT chuyên Lê Hồng Phong).
+- Slide bài học trình chiếu 4 hình ảnh sinh học minh họa gồm: cánh bướm hút mật, cánh dơi bay trên trời, gai cây xương rồng và gai cành hoa hồng.
+- Tiêu đề khái niệm sinh học học thuyết tiến hóa được ghi bằng chữ in hoa ở đỉnh slide bài giảng là gì?
+Đáp án: L25_V020 (198000 ms, 206500 ms)
+Câu trả lời: COQUANTUONGTU
+
+Query 9:
+- Video ghi lại buổi lễ ký kết biên bản ghi nhớ hợp tác quốc tế (Memorandum of Understanding Signing Ceremony) giữa hai đơn vị giáo dục và viện lãnh đạo.
+- Phía sau bàn ký kết có màn hình máy chiếu và biểu trưng nhận diện thương hiệu của trường đại học quốc tế tại Việt Nam.
+- Tên viết tắt gồm 3 chữ cái tiếng Anh của trường đại học tham gia ký kết trong video là gì?
+Đáp án: L25_V050 (215000 ms, 223500 ms)
+Câu trả lời: SIU
+
+Query 10:
+- Chương trình hướng dẫn nấu ăn ẩm thực dinh dưỡng ghi hình tại gian bếp với nam đầu bếp và nữ MC.
+- Giữa khung hình xuất hiện một bong bóng đồ họa màu đỏ hình đám mây giới thiệu tên món ăn đầy đủ dinh dưỡng cho gia đình.
+- Tên món ăn được giới thiệu trong khung chữ đồ họa màu đỏ là gì?
+Đáp án: L26_V080 (257500 ms, 266000 ms)
+Câu trả lời: CAHOINUONGLATHOM
+
+Query 11:
+- Khung cảnh đường phố đi bộ với đài phun nước hình bông hoa sen nở màu hồng ở giữa, xung quanh có các tòa nhà cao ốc.
+- Phía dưới chân màn hình có thanh thông tin thời sự màu đỏ chạy dòng chữ cập nhật biến động thị trường nhiên liệu xăng dầu trong nước.
+- Theo nội dung dải tin tức, giá xăng dầu trong nước bắt đầu tăng trở lại từ mấy giờ ngày 15/8?
+Đáp án: L21_V016 (145000 ms, 153500 ms)
+Câu trả lời: 15
+
+Query 12:
+- Nữ MC mặc trang phục áo kiểu công sở màu be nhạt cổ bẻ đang dẫn bản tin 60 giây trước phông nền thành phố hoàng hôn rực rỡ.
+- Chân màn hình hiển thị thanh tin tức thời sự màu đỏ phản ánh sự việc gia súc (bò sữa) bị chết hàng loạt và yêu cầu bồi thường thiệt hại.
+- Sự việc bò sữa chết được đề cập trong bản tin thời sự xảy ra tại địa phương/tỉnh thành nào?
+Đáp án: L22_V020 (156500 ms, 165000 ms)
+Câu trả lời: LAMDONG
+
+Query 13:
+- Cận cảnh con lân màu trắng bạc với các chi tiết mắt, miệng trang trí họa tiết đỏ xanh đang chuyển động chớp mắt sống động.
+- Khung cảnh tiếp theo con lân đang đứng biểu diễn trước bức tranh trang trí phông nền sân khấu có hình các bông hoa lớn màu vàng.
+- Tên loài hoa màu vàng rực rỡ xuất hiện trên bức tranh trang trí phông nền sân khấu sau lưng con lân là hoa gì?
+Đáp án: L24_V025 (168000 ms, 176500 ms)
+Câu trả lời: HUONGDUONG
+
+Query 14:
+- Màn trình diễn múa lân trên giàn cọc sắt Mai Hoa Thung ban đêm giữa tiếng trống chiêng rộn rã của hội thi thể thao nghệ thuật.
+- Con lân toàn thân phủ lông màu vàng tươi đang đứng vững chãi tạo dáng bằng bốn chân trên đỉnh các cột trụ sắt.
+- Phần viền bờm và râu bao quanh mặt của con lân màu vàng này có tông màu chủ đạo là màu gì?
+Đáp án: L24_V035 (179500 ms, 188000 ms)
+Câu trả lời: XANHDUONG
+
+Query 15:
+- Slide bài giảng môn Toán học chuyên đề Hình học không gian ôn thi THPT về phương trình mặt phẳng trong không gian Oxyz.
+- Bảng điện tử định nghĩa và biến đổi phương trình mặt phẳng qua điểm M(x0, y0, z0) có vectơ pháp tuyến n = (A, B, C).
+- Phương trình tổng quát (PTTQ) của mặt phẳng được xác lập dưới dạng công thức toán học nào (viết liền không dấu cách)?
+Đáp án: L25_V025 (191000 ms, 199500 ms)
+Câu trả lời: AX+BY+CZ+D=0
+
+Query 16:
+- Bài giảng môn Vật Lý ôn thi THPT chuyên đề "CD6: CÁC LOẠI MÁY ĐIỆN - SỰ TRUYỀN TẢI ĐIỆN" hiển thị trên slide điện tử.
+- Slide nêu rõ định nghĩa: "Máy phát điện xoay chiều: Thiết bị tạo ra dòng điện xoay chiều dựa trên hiện tượng...".
+- Tên hiện tượng vật lý là nguyên tắc hoạt động cơ bản của máy phát điện xoay chiều là gì?
+Đáp án: L25_V040 (202500 ms, 211000 ms)
+Câu trả lời: CAMUNGDIENTU
+
+Query 17:
+- Bài giảng môn Địa Lý của thầy giáo Trần Ngọc Anh về chuyên đề "ĐỊA LÍ DÂN CƯ VIỆT NAM" trên slide điện tử.
+- Biểu đồ tròn thể hiện "Cơ cấu dân số theo dân tộc của nước ta năm 2019 (đơn vị %)" phân chia thành Dân tộc Kinh và Các dân tộc khác.
+- Theo số liệu biểu đồ tròn trên màn hình, tỷ lệ phần trăm dân số của Dân tộc Kinh ở nước ta là bao nhiêu (sử dụng dấu phẩy làm dấu thập phân)?
+Đáp án: L25_V060 (214000 ms, 222500 ms)
+Câu trả lời: 85,3
+
+Query 18:
+- Chương trình ẩm thực dinh dưỡng ghi hình nam đầu bếp áo trắng và nam khách mời đứng trao đổi tại quầy bếp.
+- Màn hình đồ họa chuyển sang bảng "THỰC ĐƠN DINH DƯỠNG ĐƯỢC TƯ VẤN BỞI CHUYÊN GIA DINH DƯỠNG" nhằm hỗ trợ xây dựng khối cơ và xương.
+- Họ và tên đầy đủ của vị Tiến sĩ, Bác sĩ - Chuyên gia dinh dưỡng tư vấn thực đơn trên màn hình là gì?
+Đáp án: L26_V030 (225500 ms, 234000 ms)
+Câu trả lời: DAOTHIYENPHI
+
+Query 19:
+- Nam đầu bếp áo trắng viền đỏ cầm nắp vung nồi trò chuyện cùng nữ MC mặc áo màu hồng phấn phối tạp dề trắng viền đỏ trong gian bếp.
+- Phía sau góc phải bàn bếp có mô hình trang trí một loại bánh truyền thống ngày Tết màu xanh vuông vắn có dán chữ Tết màu đỏ.
+- Tên của loại bánh truyền thống ngày Tết được đặt trang trí trên quầy bếp là bánh gì?
+Đáp án: L26_V060 (237000 ms, 245500 ms)
+Câu trả lời: BANHCHUNG
+
+Query 20:
+- Cận cảnh chiếc đĩa sứ màu xanh đựng phần cơm chiên hải sản với hai con tôm lớn màu đỏ cam tươi ngon.
+- Bàn tay đầu bếp dùng muỗng nhỏ múc nước sốt bơ tỏi màu vàng kem óng ánh rưới đều lên thân con tôm.
+- Tên của loài hải sản có đôi càng dài màu đỏ cam nổi bật được đặt trên đĩa cơm là gì?
+Đáp án: L26_V100 (248500 ms, 257000 ms)
+Câu trả lời: TOMCANG
