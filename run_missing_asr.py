@@ -352,7 +352,7 @@ def main():
         print(f"    Transcribing video with Whisper...")
         t_trans_start = time.perf_counter()
         try:
-            segments, _ = model.transcribe(video_path, language=args.asr_language, beam_size=args.beam_size)
+            segments, _ = model.transcribe(video_path, language=args.asr_language, beam_size=args.beam_size, condition_on_previous_text=False)
             raw_segments = [
                 {
                     "segment_start": float(s.start),

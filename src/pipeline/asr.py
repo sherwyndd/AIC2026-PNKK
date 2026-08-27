@@ -24,7 +24,7 @@ def _log(logger, message):
 
 
 def _extract_raw_asr(video_path: str, model: WhisperModel, language: str, beam_size: int) -> list[dict]:
-    segments, _ = model.transcribe(video_path, language=language, beam_size=beam_size)
+    segments, _ = model.transcribe(video_path, language=language, beam_size=beam_size, condition_on_previous_text=False)
     return [
         {
             "segment_start": float(s.start),

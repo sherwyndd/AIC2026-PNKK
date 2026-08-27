@@ -420,6 +420,7 @@ def main():
                 info["video_path"],
                 language=args.asr_language,
                 beam_size=args.beam_size,
+                condition_on_previous_text=False,
             )
             raw_segments = [
                 {
