@@ -1,0 +1,49 @@
+1. QA_01
+Theo bản tin, ngọn núi lửa nào tại Italia đã phun trào trở lại sau 4 năm ngủ yên?
+Đáp án: L21_V005 (33766 ms, 38033 ms)
+Câu trả lời: ETNA
+
+2. QA_02
+Dự án cải tạo được nhắc đến trong bản tin có tổng mức đầu tư từ nguồn ngân sách thành phố là hơn bao nhiêu tỷ đồng?
+Đáp án: L22_V001 (62066 ms, 64733 ms)
+Câu trả lời: 9.9TY
+
+3. QA_03
+Bản tin thời sự thế giới nhắc đến lễ tưởng niệm bao nhiêu năm vụ thả bom nguyên tử xuống thành phố Nagasaki của Nhật Bản?
+Đáp án: L22_V009 (34080 ms, 36200 ms)
+Câu trả lời: 79NAM
+
+4. QA_04
+Trong bản tin về vụ tai nạn máy bay, có tổng cộng bao nhiêu người trên máy bay bị thiệt mạng?
+Đáp án: L22_V010 (33920 ms, 52480 ms)
+Câu trả lời: 61NGUOI
+
+5. QA_05
+Vận động viên đua xe đạp Peter Rikunov đang được đồng đội nào bảo vệ rất kỹ ở vị trí ngay sau lưng?
+Đáp án: L23_V005 (22560 ms, 41680 ms)
+Câu trả lời: ROMANMAKIN
+
+6. QA_06
+Giải đua xe đạp Cúp Truyền Hình có tổng chiều dài hành trình thi đấu là hơn bao nhiêu km?
+Đáp án: L23_V025 (94320 ms, 102920 ms)
+Câu trả lời: 2700KM
+
+7. QA_07
+Chương trình ôn tập thi tốt nghiệp THPT môn Vật lý năm 2024 được tổ chức bởi đơn vị báo chí nào?
+Đáp án: L25_V005 (0 ms, 2635 ms)
+Câu trả lời: BAOTHANHNIEN
+
+8. QA_08
+Trong buổi ôn thi tốt nghiệp môn Ngữ văn 2024, thầy giáo hướng dẫn phân tích bài thơ Đất nước của nhà thơ nào?
+Đáp án: L25_V010 (42640 ms, 50760 ms)
+Câu trả lời: NGUYENKHOADIEM
+
+9. QA_09
+Trong chương trình dạy nấu ăn dịp cuối tuần, đầu bếp hướng dẫn làm món ăn gì từ đùi ếch?
+Đáp án: L26_V001 (63080 ms, 65840 ms)
+Câu trả lời: DUIECHCHIENME
+
+10. QA_10
+Thắng cảnh bãi biển Mũi Nai được giới thiệu trong video thuộc địa phận thành phố nào của tỉnh Kiên Giang?
+Đáp án: L27_V005 (65440 ms, 68760 ms)
+Câu trả lời: HATIEN
