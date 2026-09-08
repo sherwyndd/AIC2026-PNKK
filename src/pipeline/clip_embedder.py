@@ -1,12 +1,15 @@
 import logging
-
 import cv2
 import numpy as np
 import torch
+from PIL import Image
 
-from .config import DEFAULT_CLIP_BATCH_SIZE, DEFAULT_CLIP_MODEL_ID, DEFAULT_KEYFRAME_STEP
+from .config import DEFAULT_CLIP_BATCH_SIZE, DEFAULT_KEYFRAME_STEP
 
 _logger = logging.getLogger(__name__)
+
+DEFAULT_CLIP_MODEL_ID = "ViT-L-14-quickgelu"
+DEFAULT_OPEN_CLIP_PRETRAINED = "dfn2b"
 
 
 def get_target_frames(start_frame, end_frame, step=DEFAULT_KEYFRAME_STEP):
@@ -41,7 +44,8 @@ def collect_shot_candidates(cap, start_frame, end_frame, sample_step):
     return candidates
 
 
-def filter_candidates_by_rel_diff(candidates, embeddings, threshold):
+def filter_candidates_by_rel_diff(candidates, embeddings, threshold=0.4):
+    """Filter candidates using L2-normalized relative difference (Vortex paper)."""
     if not candidates:
         return []
 
@@ -64,68 +68,44 @@ def filter_candidates_by_rel_diff(candidates, embeddings, threshold):
     return selected
 
 
-def _extract_tensor_from_features(features):
-    """Extract torch.Tensor from all known CLIPModel.get_image_features() return formats."""
-    if isinstance(features, torch.Tensor):
-        tensor = features
-    elif isinstance(features, (tuple, list)):
-        # Some transformers versions return (pooled_output,) or (last_hidden, pooled, ...)
-        first = features[0]
-        if not isinstance(first, torch.Tensor):
-            raise RuntimeError(
-                f"CLIP returned a {type(features).__name__} whose first element is "
-                f"{type(first)} (not a Tensor)."
-            )
-        tensor = first
-    elif hasattr(features, "image_embeds"):
-        tensor = features.image_embeds
-    elif isinstance(features, dict) and "image_embeds" in features:
-        tensor = features["image_embeds"]
-    elif hasattr(features, "pooler_output"):
-        tensor = features.pooler_output
-    else:
-        raise RuntimeError(
-            f"Unexpected CLIP image feature output type: {type(features)}. "
-            "Expected a Tensor, tuple/list, object/dict with 'image_embeds', or object with 'pooler_output'."
-        )
-
-    if not isinstance(tensor, torch.Tensor):
-        raise RuntimeError(
-            f"Extracted CLIP feature is {type(tensor)}, not a torch.Tensor."
-        )
-    return tensor
-
-
 class CLIPEmbedder:
-    def __init__(self, device, model_id=DEFAULT_CLIP_MODEL_ID, batch_size=DEFAULT_CLIP_BATCH_SIZE):
-        try:
-            from transformers import CLIPModel, CLIPProcessor
-            from PIL import Image
-        except ImportError as exc:
-            raise ImportError(
-                "transformers and pillow are required for CLIP filtering. "
-                "Install with: pip install transformers accelerate pillow"
-            ) from exc
+    """CLIP Feature Extractor supporting OpenCLIP (ViT-L-14-quickgelu dfn2b) and HuggingFace transformers."""
 
+    def __init__(
+        self,
+        device,
+        model_id=DEFAULT_CLIP_MODEL_ID,
+        pretrained=DEFAULT_OPEN_CLIP_PRETRAINED,
+        batch_size=DEFAULT_CLIP_BATCH_SIZE,
+    ):
         self.device = device
         self.batch_size = batch_size
-        self.processor = CLIPProcessor.from_pretrained(model_id)
-        self.model = CLIPModel.from_pretrained(model_id).to(device)
-        self.model.eval()
-        self.Image = Image
+        self.use_open_clip = False
+        self._embed_dim = 768
 
-        # Infer embedding dim from model config — avoids hardcoding 768 or 512
         try:
-            self._embed_dim = self.model.config.projection_dim
-        except AttributeError:
-            self._embed_dim = 768  # fallback for clip-vit-large-patch14
+            import open_clip
+
+            self.model, _, self.preprocess = open_clip.create_model_and_transforms(
+                model_id if "/" not in model_id else "ViT-L-14-quickgelu",
+                pretrained=pretrained if pretrained else "dfn2b",
+                device=device,
+            )
+            self.model.eval()
+            self.use_open_clip = True
+            _logger.info(f"Loaded OpenCLIP model '{model_id}' ({pretrained}) on {device}")
+        except Exception as exc:
+            _logger.warning(f"OpenCLIP load failed ({exc}). Falling back to HuggingFace transformers...")
+            from transformers import CLIPModel, CLIPProcessor
+
+            hf_model_id = "openai/clip-vit-large-patch14" if "/" not in model_id else model_id
+            self.processor = CLIPProcessor.from_pretrained(hf_model_id)
+            self.model = CLIPModel.from_pretrained(hf_model_id).to(device)
+            self.model.eval()
+            self.use_open_clip = False
 
     def encode_images(self, frames_bgr):
-        """
-        Encode a list of BGR frames to a float32 array of shape (N, embed_dim).
-        Bad frames are replaced with zero vectors so the pipeline never stops mid-run.
-        Includes dynamic batch size reduction on CUDA OOM.
-        """
+        """Encode list of BGR frames to normalized float32 feature array of shape (N, 768)."""
         if not frames_bgr:
             return np.zeros((0, self._embed_dim), dtype=np.float32)
 
@@ -136,47 +116,46 @@ class CLIPEmbedder:
         while idx < len(frames_bgr):
             batch = frames_bgr[idx : idx + curr_batch_size]
             try:
-                rgb_images = []
-                for frame in batch:
-                    if frame is None or frame.size == 0:
-                        _logger.warning("Skipping empty/None frame in CLIP batch — using blank.")
-                        blank = np.zeros((224, 224, 3), dtype=np.uint8)
-                        rgb_images.append(self.Image.fromarray(blank))
-                    else:
-                        rgb_images.append(
-                            self.Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-                        )
+                if self.use_open_clip:
+                    tensors = []
+                    for frame in batch:
+                        if frame is None or frame.size == 0:
+                            blank = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
+                            tensors.append(self.preprocess(blank))
+                        else:
+                            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                            tensors.append(self.preprocess(Image.fromarray(rgb)))
+                    input_batch = torch.stack(tensors).to(self.device)
 
-                inputs = self.processor(images=rgb_images, return_tensors="pt", padding=True)
-                pixel_values = inputs["pixel_values"].to(self.device)
+                    with torch.no_grad():
+                        feats = self.model.encode_image(input_batch)
+                        feats = feats / feats.norm(dim=-1, keepdim=True)
+                    arr = feats.cpu().numpy().astype(np.float32)
+                else:
+                    rgb_images = [
+                        Image.fromarray(cv2.cvtColor(f, cv2.COLOR_BGR2RGB)) if f is not None and f.size > 0
+                        else Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
+                        for f in batch
+                    ]
+                    inputs = self.processor(images=rgb_images, return_tensors="pt", padding=True)
+                    pixel_values = inputs["pixel_values"].to(self.device)
+                    with torch.no_grad():
+                        feats = self.model.get_image_features(pixel_values=pixel_values)
+                        feats = feats / feats.norm(dim=-1, keepdim=True)
+                    arr = feats.cpu().numpy().astype(np.float32)
 
-                with torch.no_grad():
-                    features = self.model.get_image_features(pixel_values=pixel_values)
-
-                tensor = _extract_tensor_from_features(features)
-                arr = tensor.detach().cpu().float().numpy()
                 chunks.append(arr)
                 idx += len(batch)
 
-            except (torch.cuda.OutOfMemoryError, RuntimeError) as exc:
-                err_msg = str(exc).lower()
-                if ("out of memory" in err_msg or "oom" in err_msg) and curr_batch_size > 1:
-                    new_batch_size = max(1, curr_batch_size // 2)
-                    _logger.warning(
-                        "CUDA OOM encountered with batch_size=%d. Reducing batch_size to %d and retrying...",
-                        curr_batch_size, new_batch_size
-                    )
+            except Exception as exc:
+                if curr_batch_size > 1 and ("out of memory" in str(exc).lower() or "oom" in str(exc).lower()):
+                    curr_batch_size = max(1, curr_batch_size // 2)
                     if torch.cuda.is_available():
                         torch.cuda.empty_cache()
-                    curr_batch_size = new_batch_size
                     continue
                 else:
-                    _logger.error(
-                        "CLIP encode failed for batch [%d:%d]: %s — replacing with zero vectors.",
-                        idx, idx + len(batch), exc,
-                    )
+                    _logger.error(f"CLIP encode error: {exc}. Using zero vectors for batch.")
                     chunks.append(np.zeros((len(batch), self._embed_dim), dtype=np.float32))
                     idx += len(batch)
 
         return np.concatenate(chunks, axis=0)
-

@@ -1,7 +1,7 @@
 paths:
-  input_dir: /mlcv2025/Datasets/HCMAI25/batch2/video
+  input_dir: /mlcv2025/Datasets/HCMAI25/batch1/video
   output_demo: dataset/demo
-  output_full: data
+  output_full: /AIClub_NAS/core_baotg/phong/AIC_2026/data
 
 pipeline:
   mode: demo

@@ -6,7 +6,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RUNTIME_CONFIG_PATH = PROJECT_ROOT / "configs" / "runtime.yaml"
 PIPELINE_TREE_PATH = PROJECT_ROOT / "pipeline_config.yaml"
 
-DEFAULT_INPUT_DIR = "/mlcv2025/Datasets/HCMAI25/batch2/video"
+DEFAULT_INPUT_DIR = "/mlcv2025/Datasets/HCMAI25/batch1/video"
 DEFAULT_OUTPUT_DEMO = "dataset/demo"
 DEFAULT_OUTPUT_FULL = "data"
 DEFAULT_MODE = "demo"
