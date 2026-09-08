@@ -1,0 +1,833 @@
+{
+  "version": 3,
+  "activeQueryId": "query-1",
+  "kisRanking": [
+    {
+      "id": "1787233711284-y30s5z",
+      "keyframe_id": "L27_V015_kf_0048",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 48,
+      "timestamp": 27040,
+      "pts_time": 27.04,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0048.jpg",
+      "score": 0.15444574,
+      "rank": 1,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0048",
+      "rankedAt": "2026-08-20T13:48:31.284Z"
+    },
+    {
+      "id": "L27_V015_kf_0047",
+      "keyframe_id": "L27_V015_kf_0047",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 47,
+      "timestamp": 26720,
+      "pts_time": 26.72,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0047.jpg",
+      "score": 0.14967853,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0047",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0046",
+      "keyframe_id": "L27_V015_kf_0046",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 46,
+      "timestamp": 26400,
+      "pts_time": 26.4,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0046.jpg",
+      "score": 0.14887103,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0046",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V064_kf_0009",
+      "keyframe_id": "L30_V064_kf_0009",
+      "videoId": "L30_V064",
+      "videoTitle": "L30_V064",
+      "frameId": 9,
+      "timestamp": 19560,
+      "pts_time": 19.56,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V064/L30_V064_kf_0009.jpg",
+      "score": 0.14640461,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V064_kf_0009",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0164",
+      "keyframe_id": "L27_V015_kf_0164",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 164,
+      "timestamp": 201360,
+      "pts_time": 201.36,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0164.jpg",
+      "score": 0.14632358,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0164",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0163",
+      "keyframe_id": "L27_V015_kf_0163",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 163,
+      "timestamp": 200400,
+      "pts_time": 200.4,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0163.jpg",
+      "score": 0.1459472,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0163",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V001_kf_0614",
+      "keyframe_id": "L21_V001_kf_0614",
+      "videoId": "L21_V001",
+      "videoTitle": "L21_V001",
+      "frameId": 614,
+      "timestamp": 982067,
+      "pts_time": 982.067,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V001/L21_V001_kf_0614.jpg",
+      "score": 0.14396231,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V001_kf_0614",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0101",
+      "keyframe_id": "L30_V001_kf_0101",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 101,
+      "timestamp": 124680,
+      "pts_time": 124.68,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0101.jpg",
+      "score": 0.14355333,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0101",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L22_V020_kf_0956",
+      "keyframe_id": "L22_V020_kf_0956",
+      "videoId": "L22_V020",
+      "videoTitle": "L22_V020",
+      "frameId": 956,
+      "timestamp": 1280367,
+      "pts_time": 1280.367,
+      "thumbnailUrl": "http://localhost:8090/images/L22_V020/L22_V020_kf_0956.jpg",
+      "score": 0.14190397,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L22_V020_kf_0956",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0089",
+      "keyframe_id": "L30_V028_kf_0089",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 89,
+      "timestamp": 173120,
+      "pts_time": 173.12,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0089.jpg",
+      "score": 0.14176527,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0089",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0007",
+      "keyframe_id": "L30_V028_kf_0007",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 7,
+      "timestamp": 14320,
+      "pts_time": 14.32,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0007.jpg",
+      "score": 0.14144334,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0007",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0142",
+      "keyframe_id": "L27_V015_kf_0142",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 142,
+      "timestamp": 166360,
+      "pts_time": 166.36,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0142.jpg",
+      "score": 0.1413632,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0142",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V001_kf_0636",
+      "keyframe_id": "L21_V001_kf_0636",
+      "videoId": "L21_V001",
+      "videoTitle": "L21_V001",
+      "frameId": 636,
+      "timestamp": 1006033,
+      "pts_time": 1006.033,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V001/L21_V001_kf_0636.jpg",
+      "score": 0.14113641,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V001_kf_0636",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0088",
+      "keyframe_id": "L30_V028_kf_0088",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 88,
+      "timestamp": 172800,
+      "pts_time": 172.8,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0088.jpg",
+      "score": 0.14111674,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0088",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0029",
+      "keyframe_id": "L30_V028_kf_0029",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 29,
+      "timestamp": 48440,
+      "pts_time": 48.44,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0029.jpg",
+      "score": 0.14035326,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0029",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0009",
+      "keyframe_id": "L30_V028_kf_0009",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 9,
+      "timestamp": 17920,
+      "pts_time": 17.92,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0009.jpg",
+      "score": 0.13987035,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0009",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0032",
+      "keyframe_id": "L30_V028_kf_0032",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 32,
+      "timestamp": 55000,
+      "pts_time": 55,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0032.jpg",
+      "score": 0.13916641,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0032",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V002_kf_0684",
+      "keyframe_id": "L21_V002_kf_0684",
+      "videoId": "L21_V002",
+      "videoTitle": "L21_V002",
+      "frameId": 684,
+      "timestamp": 985467,
+      "pts_time": 985.467,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V002/L21_V002_kf_0684.jpg",
+      "score": 0.13908666,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V002_kf_0684",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0006",
+      "keyframe_id": "L30_V028_kf_0006",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 6,
+      "timestamp": 12520,
+      "pts_time": 12.52,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0006.jpg",
+      "score": 0.13896847,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0006",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L22_V018_kf_0706",
+      "keyframe_id": "L22_V018_kf_0706",
+      "videoId": "L22_V018",
+      "videoTitle": "L22_V018",
+      "frameId": 706,
+      "timestamp": 894333,
+      "pts_time": 894.333,
+      "thumbnailUrl": "http://localhost:8090/images/L22_V018/L22_V018_kf_0706.jpg",
+      "score": 0.13888082,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L22_V018_kf_0706",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V001_kf_0612",
+      "keyframe_id": "L21_V001_kf_0612",
+      "videoId": "L21_V001",
+      "videoTitle": "L21_V001",
+      "frameId": 612,
+      "timestamp": 981267,
+      "pts_time": 981.267,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V001/L21_V001_kf_0612.jpg",
+      "score": 0.1384159,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V001_kf_0612",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0050",
+      "keyframe_id": "L30_V028_kf_0050",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 50,
+      "timestamp": 95400,
+      "pts_time": 95.4,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0050.jpg",
+      "score": 0.13820499,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0050",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V001_kf_0613",
+      "keyframe_id": "L21_V001_kf_0613",
+      "videoId": "L21_V001",
+      "videoTitle": "L21_V001",
+      "frameId": 613,
+      "timestamp": 981533,
+      "pts_time": 981.533,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V001/L21_V001_kf_0613.jpg",
+      "score": 0.13819075,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V001_kf_0613",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0017",
+      "keyframe_id": "L30_V001_kf_0017",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 17,
+      "timestamp": 24360,
+      "pts_time": 24.36,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0017.jpg",
+      "score": 0.13793273,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0017",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0100",
+      "keyframe_id": "L30_V001_kf_0100",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 100,
+      "timestamp": 123720,
+      "pts_time": 123.72,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0100.jpg",
+      "score": 0.13788757,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0100",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V002_kf_0691",
+      "keyframe_id": "L21_V002_kf_0691",
+      "videoId": "L21_V002",
+      "videoTitle": "L21_V002",
+      "frameId": 691,
+      "timestamp": 988633,
+      "pts_time": 988.633,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V002/L21_V002_kf_0691.jpg",
+      "score": 0.1374817,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V002_kf_0691",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0044",
+      "keyframe_id": "L30_V028_kf_0044",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 44,
+      "timestamp": 77840,
+      "pts_time": 77.84,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0044.jpg",
+      "score": 0.13741392,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0044",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0045",
+      "keyframe_id": "L30_V028_kf_0045",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 45,
+      "timestamp": 79120,
+      "pts_time": 79.12,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0045.jpg",
+      "score": 0.13719542,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0045",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0095",
+      "keyframe_id": "L30_V028_kf_0095",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 95,
+      "timestamp": 177080,
+      "pts_time": 177.08,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0095.jpg",
+      "score": 0.13703527,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0095",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V017_kf_0676",
+      "keyframe_id": "L21_V017_kf_0676",
+      "videoId": "L21_V017",
+      "videoTitle": "L21_V017",
+      "frameId": 676,
+      "timestamp": 866320,
+      "pts_time": 866.32,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V017/L21_V017_kf_0676.jpg",
+      "score": 0.13544206,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V017_kf_0676",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0036",
+      "keyframe_id": "L30_V028_kf_0036",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 36,
+      "timestamp": 64280,
+      "pts_time": 64.28,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0036.jpg",
+      "score": 0.13525543,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0036",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0049",
+      "keyframe_id": "L27_V015_kf_0049",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 49,
+      "timestamp": 27800,
+      "pts_time": 27.8,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0049.jpg",
+      "score": 0.13521865,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0049",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0013",
+      "keyframe_id": "L30_V001_kf_0013",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 13,
+      "timestamp": 18320,
+      "pts_time": 18.32,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0013.jpg",
+      "score": 0.13515644,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0013",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V066_kf_0133",
+      "keyframe_id": "L30_V066_kf_0133",
+      "videoId": "L30_V066",
+      "videoTitle": "L30_V066",
+      "frameId": 133,
+      "timestamp": 278600,
+      "pts_time": 278.6,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V066/L30_V066_kf_0133.jpg",
+      "score": 0.13499819,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V066_kf_0133",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0038",
+      "keyframe_id": "L30_V028_kf_0038",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 38,
+      "timestamp": 67160,
+      "pts_time": 67.16,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0038.jpg",
+      "score": 0.13462918,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0038",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0038",
+      "keyframe_id": "L30_V001_kf_0038",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 38,
+      "timestamp": 59640,
+      "pts_time": 59.64,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0038.jpg",
+      "score": 0.13455454,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0038",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0166",
+      "keyframe_id": "L27_V015_kf_0166",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 166,
+      "timestamp": 203920,
+      "pts_time": 203.92,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0166.jpg",
+      "score": 0.13447787,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0166",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V001_kf_0615",
+      "keyframe_id": "L21_V001_kf_0615",
+      "videoId": "L21_V001",
+      "videoTitle": "L21_V001",
+      "frameId": 615,
+      "timestamp": 982333,
+      "pts_time": 982.333,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V001/L21_V001_kf_0615.jpg",
+      "score": 0.13442512,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V001_kf_0615",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V066_kf_0131",
+      "keyframe_id": "L30_V066_kf_0131",
+      "videoId": "L30_V066",
+      "videoTitle": "L30_V066",
+      "frameId": 131,
+      "timestamp": 276920,
+      "pts_time": 276.92,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V066/L30_V066_kf_0131.jpg",
+      "score": 0.13406146,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V066_kf_0131",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L27_V015_kf_0403",
+      "keyframe_id": "L27_V015_kf_0403",
+      "videoId": "L27_V015",
+      "videoTitle": "L27_V015",
+      "frameId": 403,
+      "timestamp": 515960,
+      "pts_time": 515.96,
+      "thumbnailUrl": "http://localhost:8090/images/L27_V015/L27_V015_kf_0403.jpg",
+      "score": 0.13401204,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L27_V015_kf_0403",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0019",
+      "keyframe_id": "L30_V001_kf_0019",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 19,
+      "timestamp": 30000,
+      "pts_time": 30,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0019.jpg",
+      "score": 0.13399945,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0019",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0053",
+      "keyframe_id": "L30_V028_kf_0053",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 53,
+      "timestamp": 102880,
+      "pts_time": 102.88,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0053.jpg",
+      "score": 0.13358614,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0053",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L23_V020_kf_0009",
+      "keyframe_id": "L23_V020_kf_0009",
+      "videoId": "L23_V020",
+      "videoTitle": "L23_V020",
+      "frameId": 9,
+      "timestamp": 15200,
+      "pts_time": 15.2,
+      "thumbnailUrl": "http://localhost:8090/images/L23_V020/L23_V020_kf_0009.jpg",
+      "score": 0.13348965,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L23_V020_kf_0009",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V066_kf_0130",
+      "keyframe_id": "L30_V066_kf_0130",
+      "videoId": "L30_V066",
+      "videoTitle": "L30_V066",
+      "frameId": 130,
+      "timestamp": 276600,
+      "pts_time": 276.6,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V066/L30_V066_kf_0130.jpg",
+      "score": 0.13346171,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V066_kf_0130",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0099",
+      "keyframe_id": "L30_V001_kf_0099",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 99,
+      "timestamp": 123400,
+      "pts_time": 123.4,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0099.jpg",
+      "score": 0.13329022,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0099",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V028_kf_0031",
+      "keyframe_id": "L30_V028_kf_0031",
+      "videoId": "L30_V028",
+      "videoTitle": "L30_V028",
+      "frameId": 31,
+      "timestamp": 52840,
+      "pts_time": 52.84,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V028/L30_V028_kf_0031.jpg",
+      "score": 0.13329011,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V028_kf_0031",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L21_V002_kf_0747",
+      "keyframe_id": "L21_V002_kf_0747",
+      "videoId": "L21_V002",
+      "videoTitle": "L21_V002",
+      "frameId": 747,
+      "timestamp": 1026533,
+      "pts_time": 1026.533,
+      "thumbnailUrl": "http://localhost:8090/images/L21_V002/L21_V002_kf_0747.jpg",
+      "score": 0.13326247,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L21_V002_kf_0747",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L23_V006_kf_0119",
+      "keyframe_id": "L23_V006_kf_0119",
+      "videoId": "L23_V006",
+      "videoTitle": "L23_V006",
+      "frameId": 119,
+      "timestamp": 198200,
+      "pts_time": 198.2,
+      "thumbnailUrl": "http://localhost:8090/images/L23_V006/L23_V006_kf_0119.jpg",
+      "score": 0.13312973,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L23_V006_kf_0119",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L23_V025_kf_0441",
+      "keyframe_id": "L23_V025_kf_0441",
+      "videoId": "L23_V025",
+      "videoTitle": "L23_V025",
+      "frameId": 441,
+      "timestamp": 748840,
+      "pts_time": 748.84,
+      "thumbnailUrl": "http://localhost:8090/images/L23_V025/L23_V025_kf_0441.jpg",
+      "score": 0.13295996,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L23_V025_kf_0441",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    },
+    {
+      "id": "L30_V001_kf_0037",
+      "keyframe_id": "L30_V001_kf_0037",
+      "videoId": "L30_V001",
+      "videoTitle": "L30_V001",
+      "frameId": 37,
+      "timestamp": 58360,
+      "pts_time": 58.36,
+      "thumbnailUrl": "http://localhost:8090/images/L30_V001/L30_V001_kf_0037.jpg",
+      "score": 0.13277104,
+      "matchedSources": [
+        "semantic"
+      ],
+      "caption": "L30_V001_kf_0037",
+      "rankedAt": "2026-08-20T13:53:32.884Z"
+    }
+  ],
+  "qaRanking": [],
+  "trakeRanking": [],
+  "savedImages": [],
+  "noteText": "",
+  "queryHistory": [
+    {
+      "id": "1787233706496-7l1fs4",
+      "savedAt": "2026-08-20T13:48:26.496Z",
+      "panels": [
+        {
+          "type": "text",
+          "query": "xe đạp",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "semantic"
+      ],
+      "topK": 50,
+      "resultCount": 50,
+      "queryTime": "3.83"
+    }
+  ],
+  "updatedAt": "2026-08-20T13:53:32Z",
+  "lastAction": "Auto-fill thêm 49 ảnh vào KIS",
+  "lastModifiedBy": "web_client"
+}

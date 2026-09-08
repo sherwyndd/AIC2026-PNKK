@@ -1,0 +1,105 @@
+{
+  "version": 68,
+  "activeQueryId": "query-1",
+  "kisRanking": [],
+  "qaRanking": [],
+  "trakeRanking": [],
+  "savedImages": [],
+  "noteText": "",
+  "queryHistory": [
+    {
+      "id": "1787239281551-b4ww9y",
+      "savedAt": "2026-08-20T15:21:21.551Z",
+      "panels": [
+        {
+          "type": "text",
+          "query": "4 black shirts astronauts",
+          "enabled": true
+        },
+        {
+          "type": "asr",
+          "query": "tàu vũ trụ tư nhân",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "semantic",
+        "asr"
+      ],
+      "topK": 50,
+      "resultCount": 50,
+      "queryTime": "0.08"
+    },
+    {
+      "id": "1787235483351-jlq8ld",
+      "savedAt": "2026-08-20T14:18:03.351Z",
+      "panels": [
+        {
+          "type": "text",
+          "query": "a hand  threading a needle behind are a chair and floor",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "semantic"
+      ],
+      "topK": 50,
+      "resultCount": 50,
+      "queryTime": "0.11"
+    },
+    {
+      "id": "1787235232407-10e4er",
+      "savedAt": "2026-08-20T14:13:52.407Z",
+      "panels": [
+        {
+          "type": "asr",
+          "query": "năm hai không hai tư bộ môn vật lý",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "asr"
+      ],
+      "topK": 50,
+      "resultCount": 50,
+      "queryTime": "2.53"
+    },
+    {
+      "id": "1787234536043-3wl5ol",
+      "savedAt": "2026-08-20T14:02:16.043Z",
+      "panels": [
+        {
+          "type": "text",
+          "query": "bóng",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "semantic"
+      ],
+      "topK": 35,
+      "resultCount": 35,
+      "queryTime": "0.10"
+    },
+    {
+      "id": "1787233706496-7l1fs4",
+      "savedAt": "2026-08-20T13:48:26.496Z",
+      "panels": [
+        {
+          "type": "text",
+          "query": "xe đạp",
+          "enabled": true
+        }
+      ],
+      "sourcesUsed": [
+        "semantic"
+      ],
+      "topK": 50,
+      "resultCount": 50,
+      "queryTime": "3.83"
+    }
+  ],
+  "updatedAt": "2026-08-22T09:26:23Z",
+  "lastAction": "Xóa danh sách Q&A",
+  "lastModifiedBy": "web_client"
+}
