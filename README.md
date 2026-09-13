@@ -100,7 +100,7 @@ uvicorn main:app --host 0.0.0.0 --port 8888
 Server Backend sẽ lắng nghe tại: `http://0.0.0.0:8888`.
 Thao tác kiểm tra API Docs Swagger tại: `http://localhost:8888/docs`.
 ### 👥 4. Thành Viên Dự Án (Contributors)
-Nguyễn Hải Phong: github.com/sherwyndd
-Lê Đức Nhân: github.com/nhanlenhanle
-Dương Anh Kiệt: 
-Võ Hoàng Kim: 
+* Nguyễn Hải Phong: github.com/sherwyndd
+* Lê Đức Nhân: github.com/nhanlenhanle
+* Dương Anh Kiệt: 
+* Võ Hoàng Kim: 
